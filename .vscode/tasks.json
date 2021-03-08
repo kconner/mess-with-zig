@@ -12,6 +12,16 @@
             "type": "shell",
             "command": "zig build",
             "problemMatcher": []
+        },
+        {
+            "label": "Watch and Run",
+            "group": "build",
+            "type": "shell",
+            "command": "find src | entr -cc zig run src/main.zig",
+            "runOptions": {
+                "instanceLimit": 1
+            },
+            "problemMatcher": []
         }
     ]
 }
