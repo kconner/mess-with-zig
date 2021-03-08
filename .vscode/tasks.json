@@ -22,6 +22,16 @@
                 "instanceLimit": 1
             },
             "problemMatcher": []
+        },
+        {
+            "label": "Test",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "type": "shell",
+            "command": "zig test src/main.zig",
+            "problemMatcher": []
         }
     ]
 }
