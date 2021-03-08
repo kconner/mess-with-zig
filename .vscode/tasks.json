@@ -11,6 +11,9 @@
             },
             "type": "shell",
             "command": "zig build",
+            "presentation": {
+                "focus": true,
+            },
             "problemMatcher": []
         },
         {
@@ -31,6 +34,9 @@
             },
             "type": "shell",
             "command": "zig test src/main.zig",
+            "presentation": {
+                "focus": true,
+            },
             "problemMatcher": []
         }
     ]
